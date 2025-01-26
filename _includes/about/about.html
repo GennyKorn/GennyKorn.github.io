@@ -1,11 +1,10 @@
 
 <div class="bg-gradient">
-  <div class="banner", style="aspect-ratio: 3;"></div>
   <div class="container", style="padding-top: 2%; padding-bottom: 2%;">
     <div class="row">
-      <div class="col-lg-10">
-        <h1 class="display-4 text-center ">{{ site.data.bio.basics.name }}</h1>
-        <p class="lead text-cente ">{{ site.data.bio.basics.label }}</p>
+      <div class="col">
+        <h1 class="display-4 text-center ">About Me</h1>
+        <p class="lead text-center ">{{ site.data.bio.basics.label }}</p>
         <p class="lead ">{{ site.data.bio.basics.summary }}</p>
         <hr class="my-4">
         <p class="lead m-0 ">
@@ -25,7 +24,7 @@
           {% endif %}
 
           {% if site.data.bio.basics.email %}
-            {% capture url %}mailto:{{ site.data.bio.basics.email }}{% endcapture %}
+            {% capture url %}mailto:{{ site.data.bioS.basics.email }}{% endcapture %}
             <div class="col text-center">
               {% include about/social.html url=url name='envelope' %}
             </div>
@@ -40,8 +39,6 @@
           {% endfor %}
 
         </div>
-      </div>
-      <div class="col-lg-2">
       </div>
     </div>
   </div>
