@@ -1,9 +1,6 @@
-<div style="background-color: var(--tf-page-bg-color)" class="bg-gradient py-3">
+<div style="background-image: image({{ site.data.build.banner_image }})" class="bg-gradient py-3">
   <div class="container">
     <div class="row">
-      <div class="col-lg-4">
-        <img width="300px" src="{{ site.data.bio.basics.picture }}" class="d-block mx-auto rounded-circle">
-      </div>
       <div class="col-lg-8">
         <h1 class="display-4 text-center">{{ site.data.bio.basics.name }}</h1>
         <p class="lead text-center">{{ site.data.bio.basics.label }}</p>
@@ -41,6 +38,8 @@
           {% endfor %}
 
         </div>
+      </div>
+      <div class="col-lg-4">
       </div>
     </div>
   </div>
