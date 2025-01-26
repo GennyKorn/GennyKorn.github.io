@@ -48,3 +48,10 @@ a {
   background-color: var(--bs-white);
   border-top: none;
 }
+
+.banner {
+  background-image: url(https://gennykorn.github.io/images/banner.png);
+  background-size: cover;
+  resize: both;
+  background-color: var(--bs-black);
+}
