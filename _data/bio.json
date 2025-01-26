@@ -5,7 +5,7 @@
     "email": "molly@hawaii.edu",
     "phone": "808-333-4444",
     "website": "https://GennyKorn.github.io",
-    "summary": "I am an electromechanical engineer with a passion for design that functions elegantly and sparks curiosity in the user.",
+    "summary": "",
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
