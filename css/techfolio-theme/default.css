@@ -10,8 +10,9 @@
   --tf-pill-bg: var(--bs-gray);
   --tf-icon-fill: var(--bs-gray);
   --tf-icon-hover: var(--bs-gray-500);
-  --tf-page-bg-color: var(--bs-white);
-  --tf-footer-bg-color: var(--bs-gray-200);
+  --tf-page-bg-color: var(--bs-gray-200);
+  --tf-footer-bg-color: var(--bs-gray-300);
+  --tf-header-bg-color: var(--bs-gray-300);
   --tf-projects-bg-color: var(--bs-gray-100);
 }
 
@@ -52,8 +53,8 @@ a {
 .banner {
   background-image: url(https://gennykorn.github.io/images/banner.png);
   background-size: cover;
-  resize: both;
+  ;background-position: 0.00% 41.09%;
   padding-top: 2%;
   padding-bottom: 2%;
-  background-color: var(--bs-black);
+  background-color: transparent;
 }
