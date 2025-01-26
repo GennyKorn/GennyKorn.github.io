@@ -2,7 +2,7 @@
 <div class="banner">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8">
+      <div class="col-lg-6">
         <h1 class="display-4 text-center text-light">{{ site.data.bio.basics.name }}</h1>
         <p class="lead text-cente text-light">{{ site.data.bio.basics.label }}</p>
         <p class="lead text-light">{{ site.data.bio.basics.summary }}</p>
@@ -13,7 +13,7 @@
           {{ interest.name }}{% if forloop.last != true %}, {% endif %}
           {% endfor %}
         </p>
-        <hr class="my-4">
+        <hr class="my-6">
         <div class="row">
 
           {% if site.data.bio.basics.website %}
