@@ -1,8 +1,7 @@
-
-<header class="navbar navbar-expand navbar-dark banner">
-  <div class="container-fluid">
-    <div class = row>
-    <a class="navbar-brand" href="{{ '/' | prepend: site.baseurl }}">Technical Design Portfolio</a>
+<header class="container-fluid banner">
+  <div class="row">
+  <nav class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+    <a class="navbar-brand" href="{{ '/' | prepend: site.baseurl }}">{{ site.data.bio.basics.name }}</a>
     <div class="ms-auto">
       <ul class="navbar-nav mb-2 mb-lg-0">
         <a class="nav-link" href="{{ '/#projects' | prepend: site.baseurl }}">Projects</a>
@@ -10,12 +9,11 @@
         <a class="nav-link" href="{{ '/resume.html' | prepend: site.baseurl }}">Resume</a>
       </ul>
     </div>
-    </div>
-    <div class="row text-center display-4">
-      <div class="col-lg-10">
-        {{ site.data.bio.basics.name }}
-      </div>
-      <div class="col-lg-2"></div>
+  </nav>
+  </div>
+  <div class="row">
+    <div class="col-lg-8 text-center text-white display-4">
+      Genny Korn
     </div>
   </div>
 </header>
