@@ -1,12 +1,13 @@
+{% assign img_arr = include.images | split: ", " %}
+
 <div id="{{ include.id }}" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
-        {% assign s = include.images.size %}
-        {% for i in (0..s) %}
+        {% for i in (0..img_arr) %}
             <li data-target="#{{ include.id }}" data-slide-to="{{ i }}"></li>
         {% endfor %}
     </ol>
     <div class="carousel-inner">
-        {% for img in include.images %}
+        {% for img in img_arr %}
             <div class="carousel-item active">
                 <img class="d-block w-100" src="{{ include.image_dir }}{{ img }}">
             </div>
