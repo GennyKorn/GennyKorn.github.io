@@ -63,25 +63,25 @@ I created this bot the night before the competition with only a 3Doodler pen in 
 <div class="container-fluid">
 <div class="row" style="height: 300 px">
     <div class="col-6 vcenter">
-        <img src="/images/CombatRobotics/img7.png" style="object-fit: contain;">
+        <img src="/images/CombatRobotics/img7.png" style="height: 100%;">
         Taste the Rainbow at full power
     </div>
     <div class="col-6 vcenter">
-        <img src="/images/CombatRobotics/img8.png" style="object-fit: contain;">
+        <img src="/images/CombatRobotics/img8.png" style="height: 100%;">
         Robot base plate
     </div>
 </div>
 <div class="row" style="height: 300 px">
     <div class="col-4 vcenter">
-        <img src="/images/CombatRobotics/img9.png" style="object-fit: contain;">
+        <img src="/images/CombatRobotics/img9.png" style="height: 100%;">
         Before destruction
     </div>
     <div class="col-4 vcenter">
-        <img src="/images/CombatRobotics/img9_2.png" style="object-fit: contain;">
+        <img src="/images/CombatRobotics/img9_2.png" style="height: 100%;">
         Before destruction
     </div>
     <div class="col-4 vcenter">
-        <img src="/images/CombatRobotics/img1-.png" style="object-fit: contain;">
+        <img src="/images/CombatRobotics/img1-.png" style="height: 100%;">
         ABS MIG welding failed 3D prints
     </div>
 </div>
@@ -98,10 +98,10 @@ I created this bot the night before the competition with only a 3Doodler pen in 
 <div class="container-fluid">
 <div class="row" style="height: 300 px">
     <div class="col-6 vcenter">
-        <img src="/images/CombatRobotics/img11.jpg" style="object-fit: contain;">
+        <img src="/images/CombatRobotics/img11.jpg" style="height: 100%;">
     </div>
     <div class="col-6 vcenter">
-        <img src="/images/CombatRobotics/img12.jpg" style="object-fit: contain;">
+        <img src="/images/CombatRobotics/img12.jpg" style="height: 100%;">
     </div>
 </div>
 </div>
@@ -140,7 +140,7 @@ As team captain I was responsible for the planning, budgeting, part purchasing, 
         </ul>
     </div>
     <div class="col-6 vcenter">
-        <img src="/images/CombatRobotics/img13.jpg" style="object-fit: contain;">
+        <img src="/images/CombatRobotics/img13.jpg" style="height: 100%;">
     </div>
 </div>
 </div>
@@ -163,10 +163,10 @@ Our robot was robust enough to be tossed around the arena and continue fighting 
 <div class="container-fluid">
 <div class="row" style="height: 300px">
     <div class="col-6 vcenter">
-        <img src="/images/CombatRobotics/img14.jpg" style="object-fit: contain;">
+        <img src="/images/CombatRobotics/img14.jpg" style="height: 100%;">
     </div>
     <div class="col-6 vcenter">
-        <img src="/images/CombatRobotics/img15.jpg" style="object-fit: contain;">
+        <img src="/images/CombatRobotics/img15.jpg" style="height: 100%;">
     </div>
 </div>
 </div>
@@ -196,13 +196,13 @@ Our robot was robust enough to be tossed around the arena and continue fighting 
 <div class="container-fluid">
 <div class="row" style="height: 300px">
     <div class="col-4 vcenter">
-        <img src="/images/CombatRobotics/img16.jpg" style="object-fit: contain;">
+        <img src="/images/CombatRobotics/img16.jpg" style="height: 100%;">
     </div>
     <div class="col-4 vcenter">
-        <img src="/images/CombatRobotics/img17.jpg" style="object-fit: contain;">
+        <img src="/images/CombatRobotics/img17.jpg" style="height: 100%;">
     </div>
     <div class="col-4 vcenter">
-        <img src="/images/CombatRobotics/img18.jpg" style="object-fit: contain;">
+        <img src="/images/CombatRobotics/img18.jpg" style="height: 100%;">
     </div>
 </div>
 </div>
