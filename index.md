@@ -1,6 +1,7 @@
 ---
 title: Home
 layout: headed
+header: Combat Robotics
 banner_style: "background-image: url(/images/home_banner.png);"
 ---
 
