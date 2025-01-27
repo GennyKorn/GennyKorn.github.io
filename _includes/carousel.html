@@ -2,7 +2,7 @@
 
 <div id="{{ include.id }}" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
-        {% for i in (0..img_arr) %}
+        {% for i in (0..img_arr.size) %}
             <li data-target="#{{ include.id }}" data-slide-to="{{ i }}"></li>
         {% endfor %}
     </ol>
