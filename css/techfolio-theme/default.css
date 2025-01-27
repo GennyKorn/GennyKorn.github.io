@@ -16,19 +16,6 @@
   --tf-projects-bg-color: var(--bs-gray-100);
 }
 
-/* Format social media icons */
-.tf-social {
-  display: inline-block;
-  fill: var(--tf-icon-fill);
-  height: 1.5em;
-  vertical-align: -.1em;
-  width: 1.5em;
-  transition: 0.2s;
-}
-
-.tf-social:hover {
-  fill: var(--tf-icon-hover);
-}
 
 a {
   text-decoration: none;
@@ -44,14 +31,14 @@ a {
   }
 }
 
-/* Simplify the styling of the bottom of Essay cards. */
-.card-footer {
-  background-color: var(--bs-white);
-  border-top: none;
-}
-
 .banner {
   background-size: cover;
   aspect-ratio: 6;
   background-color: transparent;
+}
+
+.textbox {
+  text-align: justify;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
