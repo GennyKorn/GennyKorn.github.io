@@ -51,8 +51,8 @@ a {
 }
 
 .banner {
-  background-image: url(https://gennykorn.github.io/images/banner.png);
+  background-image: url( {{ page.banner_image }} );
   background-size: cover;
-  aspect-ratio: 4;
+  aspect-ratio: 6;
   background-color: transparent;
 }
