@@ -8,7 +8,7 @@
     </ol>
     <div class="carousel-inner">
         {% for img in img_arr %}
-            <div class="carousel-item active">
+            <div class="carousel-item">
                 <img class="d-block w-100" src="{{ include.image_dir }}{{ img }}">
             </div>
         {% endfor %}
@@ -22,5 +22,3 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
-
-{{content}}
