@@ -1,7 +1,7 @@
 ---
     layout: headed
     title: Combat Robotics
-    banner_image: /images/home_banner.png
+    banner_image: /images/combatrobotics_banner.png
 ---
 
 ## What is combat robotics?
@@ -16,7 +16,7 @@ Check out the [Instructional Design Page](https://gennykorn.weebly.com/instructi
 
 ## My Builder Philosophy
 
-<div class="container">
+<div class="container-fluid">
 <div class="col-lg-10">
 <p>
 Build something ridiculous and share the knowledge.
@@ -28,8 +28,7 @@ Every bot I have designed, I have looked for ways to cause passerbyes to do a do
 No one goes into combat robotics knowing exactly what they are doing. Even with a background in engineering, there is still a steep learning curve. Robots are using components in ways they were never designed for and pushing them to their limits. By sharing what we have learned and discovered with our respective bots, we are able to lower the barrier to entry and develop better, more destructive bots and more fun competitions.
 </p>
 </div>
-<div class="col-lg-2"><img src="/images/CombatRobotics/img1.png">
-</div>
+<div class="col-lg-2"><img src="/images/CombatRobotics/img1.png"></div>
 </div>
 
 ------------------------------------------------------------------------------------------------
