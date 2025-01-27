@@ -17,6 +17,7 @@ Check out the [Instructional Design Page](https://gennykorn.weebly.com/instructi
 ## My Builder Philosophy
 
 <div class="container-fluid">
+<div class="row">
 <div class="col-8" style="padding-left: 0px;">
 <p>
 Build something ridiculous and share the knowledge.
@@ -29,6 +30,7 @@ No one goes into combat robotics knowing exactly what they are doing. Even with 
 </p>
 </div>
 <div class="col-4 vcenter"><img src="/images/CombatRobotics/img1.png"></div>
+</div>
 </div>
 
 ------------------------------------------------------------------------------------------------
