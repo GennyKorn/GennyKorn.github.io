@@ -17,7 +17,7 @@ Check out the [Instructional Design Page](https://gennykorn.weebly.com/instructi
 ## My Builder Philosophy
 
 <div class="container-fluid">
-<div class="col-lg-10">
+<div class="col-8", style="padding-left: 0px;">
 <p>
 Build something ridiculous and share the knowledge.
 </p>
@@ -28,7 +28,7 @@ Every bot I have designed, I have looked for ways to cause passerbyes to do a do
 No one goes into combat robotics knowing exactly what they are doing. Even with a background in engineering, there is still a steep learning curve. Robots are using components in ways they were never designed for and pushing them to their limits. By sharing what we have learned and discovered with our respective bots, we are able to lower the barrier to entry and develop better, more destructive bots and more fun competitions.
 </p>
 </div>
-<div class="col-lg-2"><img src="/images/CombatRobotics/img1.png"></div>
+<div class="col-4 vcenter"><img src="/images/CombatRobotics/img1.png"></div>
 </div>
 
 ------------------------------------------------------------------------------------------------
@@ -39,6 +39,7 @@ The competitions that I have most often competed in are Robobrawl, a 30lb Feathe
 
 When I was attending the University of Illinois, I helped create Design. Print. Destroy (DPD). This competitoin is unique in that it is exclusively a 3D printed competition meaning that the only parts of your robot that are allowed to be metal/other materials are you electronics, wheels, fasteners, and no more than 50% of your weapon. These rules were created intentionally to lower the financial and manufacturing barriers that often prevent people from creating robots in addition to creating a more approachable competition to less experienced builders. DPD has expanded from being just a competition to becoming the main event for Robot Day, an outreach event hosted by students for local kids and families to learn about engineering.
 
+{}
 <div id="carousel1" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carousel1" data-slide-to="0" class="active"></li>
@@ -56,11 +57,11 @@ When I was attending the University of Illinois, I helped create Design. Print. 
       <img class="d-block w-100" src="..." alt="Third slide">
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+  <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>

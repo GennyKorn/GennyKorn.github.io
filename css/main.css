@@ -42,3 +42,9 @@ a {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
+
+.vcenter {
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
