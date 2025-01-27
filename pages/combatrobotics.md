@@ -14,11 +14,12 @@ Check out the [Instructional Design Page](https://gennykorn.weebly.com/instructi
 
 ------------------------------------------------------------------------------------------------
 
-## My Builder Philosophy
-
 <div class="container-fluid">
 <div class="row">
 <div class="col-8" style="padding-left: 0px;">
+<h2> 
+My Builder Philosophy
+</h2>
 <p>
 Build something ridiculous and share the knowledge.
 </p>
