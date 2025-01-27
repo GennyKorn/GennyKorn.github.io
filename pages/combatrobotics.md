@@ -79,7 +79,7 @@ I created this bot the night before the competition with only a 3Doodler pen in 
     <div class="col-4 vcenter">
         <figure>
         <img src="/images/CombatRobotics/img9.png" style="height: 100%;">
-        Before destruction
+        <figcaption>Before destruction</figcaption>
         </figure>
     </div>
     <div class="col-4 vcenter">
@@ -95,7 +95,9 @@ I created this bot the night before the competition with only a 3Doodler pen in 
         </figure>
     </div>
 </div>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pWxq-RxzNvQ?si=9DZ2I7PcksutJDbt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="row vcenter">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/pWxq-RxzNvQ?si=9DZ2I7PcksutJDbt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 </div>
 
 ### Kornizontal Spinner
