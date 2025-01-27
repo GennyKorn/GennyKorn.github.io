@@ -17,7 +17,7 @@ Check out the [Instructional Design Page](https://gennykorn.weebly.com/instructi
 ## My Builder Philosophy
 
 <div class="container-fluid">
-<div class="col-8", style="padding-left: 0px;">
+<div class="col-8" style="padding-left: 0px;">
 <p>
 Build something ridiculous and share the knowledge.
 </p>
