@@ -63,26 +63,36 @@ I created this bot the night before the competition with only a 3Doodler pen in 
 <div class="container-fluid">
 <div class="row" style="height: 300 px">
     <div class="col-6 vcenter">
+        <figure>
         <img src="/images/CombatRobotics/img7.png" style="height: 100%;">
-        Taste the Rainbow at full power
+        <figcaption>Taste the Rainbow at full power</figcaption>
+        </figure>
     </div>
     <div class="col-6 vcenter">
+        <figure>
         <img src="/images/CombatRobotics/img8.png" style="height: 100%;">
-        Robot base plate
+        <figcaption>Robot base plate</figcaption>
+        </figure>
     </div>
 </div>
 <div class="row" style="height: 300 px">
     <div class="col-4 vcenter">
+        <figure>
         <img src="/images/CombatRobotics/img9.png" style="height: 100%;">
         Before destruction
+        </figure>
     </div>
     <div class="col-4 vcenter">
+        <figure>
         <img src="/images/CombatRobotics/img9_2.png" style="height: 100%;">
-        Before destruction
+        <figcaption>Before destruction</figcaption>
+        </figure>
     </div>
     <div class="col-4 vcenter">
+        <figure>
         <img src="/images/CombatRobotics/img1-.png" style="height: 100%;">
-        ABS MIG welding failed 3D prints
+        <figcaption>ABS MIG welding failed 3D prints</figcaption>
+        </figure>
     </div>
 </div>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pWxq-RxzNvQ?si=9DZ2I7PcksutJDbt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
