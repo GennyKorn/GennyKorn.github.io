@@ -30,6 +30,7 @@ No one goes into combat robotics knowing exactly what they are doing. Even with 
 </div>
 <div class="col-lg-2"><img src="/images/CombatRobotics/img1.png">
 </div>
+</div>
 
 ------------------------------------------------------------------------------------------------
 
@@ -39,11 +40,11 @@ The competitions that I have most often competed in are Robobrawl, a 30lb Feathe
 
 When I was attending the University of Illinois, I helped create Design. Print. Destroy (DPD). This competitoin is unique in that it is exclusively a 3D printed competition meaning that the only parts of your robot that are allowed to be metal/other materials are you electronics, wheels, fasteners, and no more than 50% of your weapon. These rules were created intentionally to lower the financial and manufacturing barriers that often prevent people from creating robots in addition to creating a more approachable competition to less experienced builders. DPD has expanded from being just a competition to becoming the main event for Robot Day, an outreach event hosted by students for local kids and families to learn about engineering.
 
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+<div id="carousel1" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carousel1" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel1" data-slide-to="1"></li>
+    <li data-target="#carousel1" data-slide-to="2"></li>
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
