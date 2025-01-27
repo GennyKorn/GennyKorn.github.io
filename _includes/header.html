@@ -1,12 +1,19 @@
 <header class="container-fluid banner">
   <div class="row">
-  <nav class="navbar navbar-expand navbar-dark bg-black bg-gradient border-bottom">
-    <a class="navbar-brand" href="{{ '/' | prepend: site.baseurl }}">{{ Technical Design Portfolio }}</a>
+  <nav class="navbar navbar-expand navbar-dark bg-transparent">
+    <a class="navbar-brand" style="padding-left: 2%;" href="{{ '/' | prepend: site.baseurl }}">Technical Design Portfolio</a>
     <div class="ms-auto">
       <ul class="navbar-nav mb-2 mb-lg-0">
-        <a class="nav-link" href="{{ '/#projects' | prepend: site.baseurl }}">Projects</a>
-        <a class="nav-link" href="{{ '/#essays' | prepend: site.baseurl }}">Essays</a>
-        <a class="nav-link" href="{{ '/resume.html' | prepend: site.baseurl }}">Resume</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="navbar-toggler-icon"></span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="{{ '/#projects' | prepend: site.baseurl }}">Projects</a>
+            <a class="dropdown-item" href="{{ '/#essays' | prepend: site.baseurl }}">Essays</a>
+            <a class="dropdown-item" href="{{ '/resume.html' | prepend: site.baseurl }}">Resume</a>
+          </div>
+        </li>
       </ul>
     </div>
   </nav>
