@@ -39,7 +39,7 @@ The competitions that I have most often competed in are Robobrawl, a 30lb Feathe
 
 When I was attending the University of Illinois, I helped create Design. Print. Destroy (DPD). This competitoin is unique in that it is exclusively a 3D printed competition meaning that the only parts of your robot that are allowed to be metal/other materials are you electronics, wheels, fasteners, and no more than 50% of your weapon. These rules were created intentionally to lower the financial and manufacturing barriers that often prevent people from creating robots in addition to creating a more approachable competition to less experienced builders. DPD has expanded from being just a competition to becoming the main event for Robot Day, an outreach event hosted by students for local kids and families to learn about engineering.
 
-{% include=combatrobotics_carasoul1.html %}
+{% include combatrobotics_carasoul1.html %}
 
 ------------------------------------------------------------------------------------------------
 
