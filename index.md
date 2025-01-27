@@ -1,6 +1,6 @@
 ---
 title: Home
-layout: home
+layout: headed
 banner_image: images/home_banner.png
 ---
 
