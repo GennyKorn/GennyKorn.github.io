@@ -1,7 +1,7 @@
 ---
 title: Home
 layout: headed
-banner_image: images/home_banner.png
+banner_style: "background-image: url(/images/home_banner.png);"
 ---
 
 # About Me
