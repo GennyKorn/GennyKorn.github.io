@@ -59,10 +59,16 @@ Taste the Rainbow was a freeform spinner built entirely from scrap parts that ot
 
 I created this bot the night before the competition with only a 3Doodler pen in hand as a challenge to myself to see what I could create with only the parts that I had immediately on hand. In creating this bot, I sketched the base plate on a piece of paper and created the outline with a 3Doodler pen, I then used the pen effectively as a very weak ABS MIG welder to fill in the base plate with whatever fillament waste I had on hand. The variety of colors in the base plate is where the name is from as I thought it looked like a bunch of squished Skittles. Once the base plate was complete collected failed 3D printed parts and aligned them with the base plate and attached them again using the 3Doodler as an ABS MIG welder. 
 
-<div class="container-fluid", style="height: 300 px">
+<div class="container-fluid" style="height: 300 px">
 <div class="row">
-<div class="col-4 vcenter"><img src="/images/CombatRobotics/img7.png"></div>
-<div class="col-4 vcenter"><img src="/images/CombatRobotics/img8.png"></div>
+<div class="col-4 vcenter">
+    <img src="/images/CombatRobotics/img7.png">
+    Taste the Rainbow at full power
+</div>
+<div class="col-4 vcenter">
+    <img src="/images/CombatRobotics/img8.png">
+    Robot base plate
+</div>
 </div>
 </div>
 
