@@ -3,17 +3,17 @@
 
 <div id="{{ include.id }}" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
-        {% for i in (0..s): limit 1 %}
+        {% for i in (0..s) limit: 1 %}
             <li data-target="#{{ include.id }}" data-slide-to="{{ i }}" class="active"></li>
         {% endfor %}
-        {% for i in (0..s) limit 1 offset: continue %}
+        {% for i in (0..s) limit: 1 offset: continue %}
             <li data-target="#{{ include.id }}" data-slide-to="{{ i }}"></li>
         {% endfor %}
     </ol>
     <div class="carousel-inner">
         {% for img in img_arr limit: 1 %}
             <div class="carousel-item active" style="height: {{ include.h }}">
-                <img class="d-block" style="object-fit: contain;" src="{{ include.image_dir }}{{ img }}">
+                <img class="d-block" style="height: 100%;" src="{{ include.image_dir }}{{ img }}">
             </div>
         {% endfor %}
         {% for img in img_arr limit: 1 offset: continue %}
