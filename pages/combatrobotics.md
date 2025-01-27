@@ -41,8 +41,8 @@ No one goes into combat robotics knowing exactly what they are doing. Even with 
 The competitions that I have most often competed in are Robobrawl, a 30lb Feather Weight, competition, and Design. Print. Destroy. (DPD), a 3D printed 1lb Ant Weight competition. Both of these competitions take place at the University of Illinois and are run by students and draw in competitors of all levels.
 
 When I was attending the University of Illinois, I helped create Design. Print. Destroy (DPD). This competitoin is unique in that it is exclusively a 3D printed competition meaning that the only parts of your robot that are allowed to be metal/other materials are you electronics, wheels, fasteners, and no more than 50% of your weapon. These rules were created intentionally to lower the financial and manufacturing barriers that often prevent people from creating robots in addition to creating a more approachable competition to less experienced builders. DPD has expanded from being just a competition to becoming the main event for Robot Day, an outreach event hosted by students for local kids and families to learn about engineering.
-<div class="container" style="height: 300px; background-color: gray">
-    {% include carousel.html id="carousel1" image_dir="/images/CombatRobotics/" images="img2.webp, img3.jpg, img4.jpg, img5.jpg, img6.jpeg" %}
+<div class="container" style="background-color: gray">
+    {% include carousel.html id="carousel1" h="300px" image_dir="/images/CombatRobotics/" images="img2.webp, img3.jpg, img4.jpg, img5.jpg, img6.jpeg" %}
 </div>
 ------------------------------------------------------------------------------------------------
 
@@ -70,6 +70,20 @@ I created this bot the night before the competition with only a 3Doodler pen in 
         Robot base plate
     </div>
 </div>
-
+<div class="row" style="height: 300 px">
+    <div class="col-4 vcenter">
+        <img src="/images/CombatRobotics/img9.png" style="object-fit: contain;">
+        Before destruction
+    </div>
+    <div class="col-4 vcenter">
+        <img src="/images/CombatRobotics/img9_2.png" style="object-fit: contain;">
+        Before destruction
+    </div>
+    <div class="col-4 vcenter">
+        <img src="/images/CombatRobotics/img1-.png" style="object-fit: contain;">
+        ABS MIG welding failed 3D prints
+    </div>
+</div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pWxq-RxzNvQ?si=9DZ2I7PcksutJDbt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 

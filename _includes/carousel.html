@@ -12,12 +12,12 @@
     </ol>
     <div class="carousel-inner">
         {% for img in img_arr limit: 1 %}
-            <div class="carousel-item active">
+            <div class="carousel-item active" style="height: {{ include.h }}">
                 <img class="d-block" style="object-fit: contain;" src="{{ include.image_dir }}{{ img }}">
             </div>
         {% endfor %}
         {% for img in img_arr limit: 1 offset: continue %}
-            <div class="carousel-item">
+            <div class="carousel-item" style="height: {{ include.h }}">
                 <img class="d-block" style="object-fit: contain;" src="{{ include.image_dir }}{{ img }}">
             </div>
         {% endfor %}
