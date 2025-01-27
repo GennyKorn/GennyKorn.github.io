@@ -1,6 +1,8 @@
+
 <div id="{{ page.id }}" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
-        {% for i in (0..page.images.size) %}
+        {% assign s = page.images.size %}
+        {% for i in (0..s) %}
             <li data-target="#{{ page.id }}" data-slide-to="{{ i }}"></li>
         {% endfor %}
     </ol>
