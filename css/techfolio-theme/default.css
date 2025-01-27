@@ -51,7 +51,6 @@ a {
 }
 
 .banner {
-  background-image: url( {{ page.banner_image }} );
   background-size: cover;
   aspect-ratio: 6;
   background-color: transparent;
