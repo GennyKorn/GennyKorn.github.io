@@ -1,7 +1,7 @@
 {% assign img_arr = include.images | split: ", " %}
 {% assign s = img_arr.size - 1 %}
 
-<div id="{{ include.id }}" class="carousel slide" data-ride="carousel" style="color: black;">
+<div id="{{ include.id }}" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
         {% for i in (0..s): limit 1 %}
             <li data-target="#{{ include.id }}" data-slide-to="{{ i }}" class="active"></li>
@@ -18,16 +18,16 @@
         {% endfor %}
         {% for img in img_arr limit: 1 offset: continue %}
             <div class="carousel-item" style="height: {{ include.h }}">
-                <img class="d-block" style="object-fit: contain;" src="{{ include.image_dir }}{{ img }}">
+                <img class="d-block" style="height: 100%;" src="{{ include.image_dir }}{{ img }}">
             </div>
         {% endfor %}
     </div>
-    <a class="left carousel-control" href="#{{ include.id }}" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
+    <a class="carousel-control-prev" href="#{{ include.id }}" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#{{ include.id }}" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+    <a class="carousel-control-next" href="#{{ include.id }}" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
     </a>
 </div>
