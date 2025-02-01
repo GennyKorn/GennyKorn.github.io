@@ -1,67 +1,161 @@
-Quicksand Variable Font
-=======================
+<!DOCTYPE html>
+<html>
+<head>
 
-This download contains Quicksand as both a variable font and static fonts.
+<script language="JavaScript" >
+<!-- Copyright 2005, Sandeep Gangadharan -->
+<!-- For more free scripts go to http://www.sivamdesign.com/scripts/ -->
+<!--
+if (document.getElementById) {
+document.writeln('<style ><!--')
+document.writeln('.texter {display:none} @media print {.texter {display:block;}}')
+document.writeln('//--></style>') }
 
-Quicksand is a variable font with this axis:
-  wght
+function openClose(theID) {
+if (document.getElementById(theID).style.display == "block") { document.getElementById(theID).style.display = "none" }
+else { document.getElementById(theID).style.display = "block" } }
+// -->
 
-This means all the styles are contained in a single file:
-  Quicksand-VariableFont_wght.ttf
 
-If your app fully supports variable fonts, you can now pick intermediate styles
-that aren’t available as static fonts. Not all apps support variable fonts, and
-in those cases you can use the static font files for Quicksand:
-  static/Quicksand-Light.ttf
-  static/Quicksand-Regular.ttf
-  static/Quicksand-Medium.ttf
-  static/Quicksand-SemiBold.ttf
-  static/Quicksand-Bold.ttf
 
-Get started
------------
+</script>
 
-1. Install the font files you want to use
 
-2. Use your app's font picker to view the font family and all the
-available styles
 
-Learn more about variable fonts
--------------------------------
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  https://developers.google.com/web/fundamentals/design-and-ux/typography/variable-fonts
-  https://variablefonts.typenetwork.com
-  https://medium.com/variable-fonts
+</head>
 
-In desktop apps
+<body class="header-page">
 
-  https://theblog.adobe.com/can-variable-fonts-illustrator-cc
-  https://helpx.adobe.com/nz/photoshop/using/fonts.html#variable_fonts
+  <div class="wrapper">
+    <div class="birdseye-header">
+      <div class="nav-wrap">
+        <div class="container">
+          <div class="logo">{logo}</div>
+          <div class="nav desktop-nav">{menu}</div>
+          <a class="hamburger" aria-label="Menu" href="#"><span></span></a>
+        </div>
+      </div>
+    </div>
 
-Online
+    <div class="banner-wrap">
+      {{#header}}
+          <div class="container">
+            <div class="banner">{content}</div>
+          </div>
+      {{/header}}
+    </div>
 
-  https://developers.google.com/fonts/docs/getting_started
-  https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide
-  https://developer.microsoft.com/en-us/microsoft-edge/testdrive/demos/variable-fonts
+    <div class="main-wrap">
+      {{#sections}}
+          <div class="container">{content}</div>
+      {{/sections}}
+    </div>
 
-Installing fonts
+    <div class="footer-wrap">
+        <div class="footer">{footer}</div>
+    </div><!-- end footer-wrap -->
+  </div><!-- /.wrapper -->
 
-  MacOS: https://support.apple.com/en-us/HT201749
-  Linux: https://www.google.com/search?q=how+to+install+a+font+on+gnu%2Blinux
-  Windows: https://support.microsoft.com/en-us/help/314960/how-to-install-or-remove-a-font-in-windows
+  <div id="navMobile" class="nav mobile-nav">
+    <a class="hamburger" aria-label="Menu" href="#"><span></span></a>
+    {menu}
+  </div>
 
-Android Apps
+	<script type="text/javascript" src="/files/theme/plugins.js"></script>
+  <script type="text/javascript" src="/files/theme/custom.js"></script>
+<style>
 
-  https://developers.google.com/fonts/docs/android
-  https://developer.android.com/guide/topics/ui/look-and-feel/downloadable-fonts
+/* I edited below this line */
 
-License
--------
-Please read the full license text (OFL.txt) to understand the permissions,
-restrictions and requirements for usage, redistribution, and modification.
 
-You can use them in your products & projects – print or digital,
-commercial or otherwise.
 
-This isn't legal advice, please consider consulting a lawyer and see the full
-license for all details.
+.accordion__title { 
+    background-color: #387b5b !important;
+    text-transform: none !important;
+    color: #f9f9f9 !important; /* Set title text color to #f9f9f9 */
+    position: relative;
+    padding-right: 30px; /* Ensures space for the icon */
+    font-family: 'Questrial', serif; /* Ensures the font matches the title text */
+    font-size: 18px !important; /* Match font size with title */
+    font-weight: normal !important; /* Match font weight with title */
+    line-height: 1.1em !important; /* Ensure line height is consistent with title */
+}
+
+/* Ensures the icon uses the 'Quicksand' font and is bolder */
+.accordion__title:after {
+    content: '\002B'; /* Unicode for "+" sign */
+    color: #f9f9f9 !important; /* Set icon color to white */
+    font-family: 'Quicksand', sans-serif !important; /* Set font to Quicksand */
+    font-weight: 700 !important; /* Make the icon bold */
+    font-size: 26px !important; /* Match font size with title */
+    opacity: 1 !important; /* Set full opacity for a stronger visibility */
+    position: absolute;
+    right: 15px; /* Keeps the icon on the right side */
+    top: 50%; /* Centers vertically within the accordion title */
+    transform: translateY(0%); /* Adjust the icon to be vertically centered */
+}
+
+.accordion__item.active > .accordion__title {
+    background-color: #6a9c84 !important;
+    color: inherit; /* Keeps the inherited color, ensuring no change */
+}
+
+/* Changes the icon to a white minus when active */
+.accordion__item.active > .accordion__title:after {
+    content: "\2212"; /* Unicode for "−" (minus sign) */
+    color: #f9f9f9 !important; /* Set icon color to white */
+    opacity: 1 !important; /* Set full opacity for stronger visibility */
+}
+
+/* Sets initial accordion ITEM state at full opacity; overrides default setting */
+#element-125b4f25-b18d-4882-961c-df556ce11050 > .accordion--box .accordion__item > .accordion__title {
+    opacity: 1.0 !important;
+}
+
+/* Sets initial accordion TITLE state at full opacity; overrides default setting */
+.accordion__title span {
+    opacity: 1.0 !important;
+    color: #f9f9f9 !important; /* Set text color to #f9f9f9 */
+}
+
+/* Sets ITEM HOVER color, in this case light gray */
+#element-125b4f25-b18d-4882-961c-df556ce11050 > .accordion--box .accordion__item > .accordion__title:hover {
+    background-color: #dddddd !important;
+}
+
+/* Lighter background color for the accordion content */
+.accordion__content {
+    background-color: #e6efea !important; /* Lighter shade of #387b5b */
+    font-size: 15px !important;
+    padding: 18px; /* Ensures padding inside the content */
+}
+
+/* Overrides accordion's default settings; prevents having to format every new accordion ITEM addition */
+.accordion__title {
+    font-family: 'Questrial', serif;
+    font-size: 18px !important;
+    font-weight: normal !important;
+    line-height: 1.1em !important;
+    color: #f9f9f9 !important; /* Set default title text color to #f9f9f9 */
+}
+
+/* Overrides accordion's default bold TITLE setting */
+.accordion__title .paragraph {
+    font-weight: normal !important;
+}
+
+/* Sets CONTENT text size; prevents having to format every new accordion CONTENT addition */
+.accordion__content {
+    font-size: 15px !important;
+}
+
+
+</style>
+
+<div style='padding: 20px; width:100%; text-align:center;'>{footer}</div>
+</body>
+</html>
+
